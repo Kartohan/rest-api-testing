@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/634be3859994b75529bebb10
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Person1",
+    "subscribedToChannel": "Kartoshehcka"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/634be14e8574a72588d2e75f
+
+###
+
+PATCH http://localhost:3000/subscribers/634be7ceb0fe0c279b0f78df
+Content-Type: application/json
+
+{
+    "name": "Krt123123"
+}
